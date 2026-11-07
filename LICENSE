@@ -1,0 +1,27 @@
+This repository holds data under two licences and a build script.
+
+<code>/words.tsv
+  Adapted from FrequencyWords by Hermit Dave
+  https://github.com/hermitdave/FrequencyWords (content/2018, commit 525f9b5)
+  Licence: CC BY-SA 4.0, full text in CC-BY-SA-4.0.txt
+  https://creativecommons.org/licenses/by-sa/4.0/
+  Changes: spelling filtered, counts merged, accents normalised, list shortened, scores computed.
+  These files carry the same licence.
+
+<code>/bigrams.tsv
+  Word pair counts derived from Tatoeba sentences, by Tatoeba and its contributors
+  https://tatoeba.org/en/downloads
+  Licence: CC BY 2.0 FR
+  https://creativecommons.org/licenses/by/2.0/fr/
+  Changes: only the commonest next words for each word are kept; no sentence is included.
+  The word list above also limits which words appear, so these files are additionally offered
+  under CC BY-SA 4.0 for that part.
+
+<code>/letters and index.tsv
+  Lists of letters and file hashes, under CC BY-SA 4.0 like the word lists.
+
+tools/build.py
+  CC BY-SA 4.0, like the data it builds.
+
+The LibreOffice spelling dictionaries (https://github.com/LibreOffice/dictionaries, commit c0865a8)
+were read while building, to decide which words to keep. They are not included.
